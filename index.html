@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lyka G. Navales</title>
+
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      font-family: sans-serif, Arial, Helvetica;
+    }
+
+    main {
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns: 40fr 60fr;
+      grid-template-areas: 'sec1 sec2';
+      height: fit-content;
+
+      background-color: #fff;
+      /* border: 1px solid #fff; */
+
+      margin: 0 auto;
+      width: 75vw;
+      /* box-shadow: 0 0 8px 2px gray; */
+      border: 1px solid #eee;
+      border-radius: 10px;
+      box-shadow: 0 0 8px #eee;
+      /* padding-top: .14em; */
+    }
+
+    .sec1,
+    .sec2 {
+      padding: 2em;
+    }
+
+    .sec1 {
+      background-color: #282525;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    .sec2 {
+      grid-area: 'sec1';
+      padding-top: 8em;
+      padding-left: 4em;
+    }
+
+    img {
+      display: block;
+      border-radius: 50%;
+      width: 24em;
+      margin: auto;
+      border: 3px solid #0767f7;
+      padding: 1em;
+      margin-bottom: 3em;
+    }
+
+    h2 {
+      color: #0767f7;
+      font-weight: bold;
+      margin: 2.4rem;
+      font-size: xx-large;
+    }
+
+    .info {
+      color: #fff;
+      list-style-type: none;
+      margin-left: 2.8em;
+      font-size: larger;
+      width: 80%;
+    }
+
+    .info li {
+      margin: .6em 0;
+      text-align: left;
+    }
+
+    progress {
+      accent-color: #0767f7;
+      width: 90%;
+    }
+
+    h1 {
+      font-size: 6em;
+      color: #282525;
+      text-shadow: 1px 2px 8px gray;
+    }
+
+    .job-title {
+      color: lightslategray;
+      list-style-type: none;
+      font-size: larger;
+    }
+
+    .work-experience-label {
+      display: inline-block;
+      font-weight: bold;
+      font-size: xx-large;
+      color: #282525;
+      margin-top: 2em;
+      margin-bottom: 1.4em;
+      border-left: 8px solid #0767f7;
+      padding-left: .4em;
+    }
+
+    .work-experience h2 {
+      color: #282525;
+      margin: .6em 0;
+      font-size: 1.4em;
+      border-left: 6px solid #0767f7;
+      padding-left: .4em;
+    }
+
+    .work-experience p {
+      margin-bottom: 1.4em;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section class="sec1">
+
+      <img src="navales.jpg" alt="picture">
+
+      <h2>Contact</h2>
+      <ul class="contact-info info">
+        <li>Email : lykanavales10@gmail.com</li>
+        <li>Phone : 09636393308</li>
+        <li>Address : Jamorawon Bulan Sorsogon</li>
+      </ul>
+
+      <h2>Education</h2>
+      <ul class="education-info info">
+        <li>
+          Bachelor of Science in Information Technology – Graduate in Sorsogon State University Bulan-Campus Studyante
+          lang lutang pa araw-araw
+        </li>
+        <li>
+          San Francisco National High School in San Francisco Bulan,Sorsogon
+        </li>
+        <li>
+          Jamorawon Elementary School in Jamorawon bulan Sorsogon
+        </li>
+      </ul>
+
+      <h2>Skills</h2>
+      <ul class="skills-info info">
+        <li>
+          Skill 1 <br>
+          <progress value="80" max="100"></progress>
+        </li>
+        <li>
+          Skill 2 <br>
+          <progress value="60" max="100"></progress>
+        </li>
+        <li>
+          Skill 3 <br>
+          <progress value="70" max="100"></progress>
+        </li>
+      </ul>
+    </section>
+    <section class="sec2">
+      <h1>Lyka G. Navales</h1>
+      <label class="job-title">Bachelor of Science in Information Technology Student</label>
+      <br> <br>
+      <hr>
+
+      <span class="work-experience-label">Work Experience</span>
+      <div class="work-experience">
+        <h2>Experience 1</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque porro a fugit dolore voluptas debitis
+          adipisci quidem. Inventore ea omnis, numquam voluptatem aliquam, totam nostrum similique distinctio illum
+          nesciunt repellendus ducimus fugiat corporis voluptatibus quasi tenetur illo. Eaque, quis alias.</p>
+        <h2>Experience 2</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque porro a fugit dolore voluptas debitis
+          adipisci quidem. Inventore ea omnis, numquam voluptatem aliquam, totam nostrum similique distinctio illum
+          nesciunt repellendus ducimus fugiat corporis voluptatibus quasi tenetur illo. Eaque, quis alias.</p>
+        <h2>Experience 3</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque porro a fugit dolore voluptas debitis
+          adipisci quidem. Inventore ea omnis, numquam voluptatem aliquam, totam nostrum similique distinctio illum
+          nesciunt repellendus ducimus fugiat corporis voluptatibus quasi tenetur illo. Eaque, quis alias.</p>
+        <h2>Experience 4</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque porro a fugit dolore voluptas debitis
+          adipisci quidem. Inventore ea omnis, numquam voluptatem aliquam, totam nostrum similique distinctio illum
+          nesciunt repellendus ducimus fugiat corporis voluptatibus quasi tenetur illo. Eaque, quis alias.</p>
+      </div>
+    </section>
+  </main>
+
+</body>
+<script src="myScript.js"></script>
+
+</html>
